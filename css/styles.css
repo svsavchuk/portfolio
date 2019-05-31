@@ -1,7 +1,17 @@
 body {
-  background-color: white;
+  font-family:
+
 }
 
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: x-large;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: small;
+}
 
 .avatar {
   width: 180px;
