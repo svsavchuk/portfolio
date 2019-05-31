@@ -1,9 +1,35 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  color: #3E3E40;
   margin: 0px;
   padding: 0px;
   border: 0px;
   text-align: center;
+}
+
+/* to remove all hyperlink underlines*/
+a {
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: #3E3E40;
+}
+
+/* visited link */
+a:visited {
+  color: #3E3E40;
+}
+
+/* unvisited link */
+a:hover {
+  color: #EC8382;
+}
+
+/* unvisited link */
+a:active {
+  color: #3E3E40;
 }
 
 h1 {
@@ -25,18 +51,38 @@ p {
   text-align: center;
 }
 
-.avatar {
+#logo {
+    width: 30px;
+    float: left;
+    padding: 10px;
+}
+
+
+#havigation-links {
+  float: right;
+}
+
+#avatar {
   width: 160px;
   display: block;
+  filter: grayscale() contrast(98%) brightness(102%);
   margin-left: auto;
   margin-right: auto;
 }
 
 .white-small-color-block {
-  width: 100%;
-  background-color: white;
   padding: 20px;
 }
+
+.white-medium-color-block {
+  padding: 40px;
+}
+
+.blue-large-color-block {
+  background-color: #B5D9F7;
+  padding: 200px;
+}
+
 
 .main-paragraphs {
   font-size: small;
