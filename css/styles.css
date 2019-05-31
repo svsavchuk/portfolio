@@ -68,7 +68,7 @@ p {
 }
 
 .logo {
-    width: 30px;
+    width: 35px;
     float: left;
     padding-left: 20px;
 }
@@ -108,6 +108,7 @@ p {
 .blue-large-color-block {
   background-color: #B5D9F7;
   padding: 200px;
+  margin: 0px;
 }
 
 
@@ -119,4 +120,13 @@ p {
 .columns {
   width: 15%;
   float: left;
+}
+
+.contact-color-block {
+  background-color: #B5D9F7;
+  margin: 0px;
+}
+.social-media {
+  width: 35px;
+  padding: 10px;
 }
