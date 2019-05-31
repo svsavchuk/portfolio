@@ -1,5 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  font-size: small;
   color: #3E3E40;
   margin: 0px;
   padding: 0px;
@@ -7,30 +8,47 @@ body {
   text-align: center;
 }
 
-/* to remove all hyperlink underlines*/
+/*Remove underlining from all links*/
 a {
   text-decoration: none;
 }
 
-/* unvisited link */
+/*Style the links*/
 a:link {
   color: #3E3E40;
 }
 
-/* visited link */
 a:visited {
   color: #3E3E40;
 }
 
-/* unvisited link */
 a:hover {
   color: #EC8382;
 }
 
-/* unvisited link */
 a:active {
   color: #3E3E40;
 }
+
+/*Style the links inside the navigation bar*/
+.topnav a:link {
+  color: #B5D9F7;
+  padding-right: 20px;
+}
+
+.topnav a:visited {
+  color: #B5D9F7;
+}
+
+.topnav a:hover {
+  color: #EC8382;
+}
+
+.topnav a:active {
+  color: #B5D9F7
+}
+
+/*Styling other*/
 
 h1 {
   font-size: x-large;
@@ -44,30 +62,39 @@ h3 {
   font-size: small;
 }
 
-}
-
 p {
   font-size: small;
   text-align: center;
 }
 
-#logo {
+.logo {
     width: 30px;
     float: left;
-    padding: 10px;
+    padding-left: 20px;
 }
 
+/*Top navigation*/
+.topnav {
+  float: left;
+  width: 100%;
+  background-color: white;
+}
 
-#havigation-links {
+.topnav-right {
   float: right;
+  align: center;
 }
 
-#avatar {
+.avatar {
   width: 160px;
   display: block;
   filter: grayscale() contrast(98%) brightness(102%);
   margin-left: auto;
   margin-right: auto;
+}
+
+.white-very-small-color-block {
+  padding: 10px;
 }
 
 .white-small-color-block {
