@@ -10,10 +10,9 @@ _The purpose of this website to provide information about myself for my instruct
 _Feel free to contact me if you have any questions. My contact information is listed at the bottom of the main page._
 
 ## Technologies Used
-_HTML_
-_CSS_
+_HTML, CSS_
 
 ## License
 _The content of this site is licensed under MIT.
 
-Copyright (c) 2019 **_Serhiy Savchuk_**
+Copyright (c) 2019 Serhiy Savchuk
