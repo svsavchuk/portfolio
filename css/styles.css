@@ -60,12 +60,24 @@ h2 {
 
 h3 {
   font-size: small;
+  margin:0px;
+  /* padding: 0px; */
 }
 
 p {
   font-size: small;
   text-align: center;
+  /* margin: 0px; */
 }
+
+ul {
+
+  /* float: left; */
+  /* list-style-type: none; */
+  list-style: none;
+  padding: 0%;
+}
+
 
 .logo {
     width: 35px;
@@ -107,22 +119,44 @@ p {
 
 .blue-large-color-block {
   background-color: #B5D9F7;
-  padding: 150px;
-  margin: 0px;
+  padding: 175px;
 }
-
 
 .main-paragraphs {
   font-size: small;
-  text-align: center;
 }
 
 .columns {
-  width: 15%;
+  width: 33.33%;
+  height: 50%;
   float: left;
-  border-radius: 10px;
-  border-color: black;
-  border-width: 1px;
+  /* border-right: 1px; */
+  /* background-color: white; */
+
+
+}
+
+/* .columns-divider {
+  float:
+  height: 20%;
+  width: 0;
+  border: 1px #EC8382;
+} */
+
+/* hr {
+  width: 1px;
+  height: 100%;
+  background-color: red;
+  float: right;
+} */
+
+
+.vertical-line {
+  margin-top: 0px;
+  width: 2px;
+  height: 125px;
+  background-color: #EC8382;
+  float: right;
 }
 
 .contact-color-block {
@@ -145,3 +179,20 @@ p {
 .social-media-icon-github:hover {
   background: url ("img/github-hover.png") no-repeat;
 }
+
+.x a {
+ color: #cc3300;
+ padding-left: 14px;
+ font-weight: bold;
+ background-image: url("img/github.png");
+ background-position: 0 2px;
+ background-repeat: no-repeat;
+ }
+.x a:hover {
+ color: #333333;
+ padding-left: 14px;
+ font-weight: bold;
+ background-image: url("img/github-hover.png");
+ background-position: 0 -11px;
+ background-repeat: no-repeat;
+ }
