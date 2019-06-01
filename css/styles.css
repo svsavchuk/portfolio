@@ -1,3 +1,5 @@
+
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: small;
@@ -119,7 +121,12 @@ ul {
 
 .blue-large-color-block {
   background-color: #B5D9F7;
-  padding: 175px;
+  padding: 150px;
+}
+
+.blue-large-color-block {
+  background-color: #B5D9F7;
+  padding: 150px;
 }
 
 .main-paragraphs {
