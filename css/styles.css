@@ -107,7 +107,7 @@ p {
 
 .blue-large-color-block {
   background-color: #B5D9F7;
-  padding: 200px;
+  padding: 150px;
   margin: 0px;
 }
 
@@ -120,13 +120,28 @@ p {
 .columns {
   width: 15%;
   float: left;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 1px;
 }
 
 .contact-color-block {
   background-color: #B5D9F7;
   margin: 0px;
 }
-.social-media {
+
+.social-media-icons {
   width: 35px;
   padding: 10px;
+}
+
+.social-media-icon-github {
+  width: 160px;
+  height:160px;
+  display:block;
+  background: url ("img/github.png") no-repeat;
+}
+
+.social-media-icon-github:hover {
+  background: url ("img/github-hover.png") no-repeat;
 }
